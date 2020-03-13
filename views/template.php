@@ -13,7 +13,7 @@
     <header>
         <div class="bg-dark p-1">
             <div class="container text-light">
-                <a href="<?php echo BASE_URL; ?>"><h1>Aqui é o cabeçalho</h1></a>
+                <a href="<?php echo BASE_URL; ?>">Loja Virtual 1.0</a>
             </div>
         </div>
     </header>
@@ -22,7 +22,7 @@
     <?php $this->loadView($viewName, $viewData) ?>
 
     <!-- RODAPÉ DO SITE (FOOTER) -->
-    <footer>
+    <footer class="w-100">
     <div class="bg-dark p-1">
         <div class="container text-light text-center">
             <h6>&copy; Todos os Direitos Reservados</h6>

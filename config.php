@@ -2,9 +2,9 @@
 require "environment.php"; 
 
 if (ENVIRONMENT == 'development') {
-    define('BASE_URL', 'http://localhost/estrutura_mvc/');
+    define('BASE_URL', 'http://localhost/lojav1/');
     $config = array(
-        'dbname' => 'db_estrutura_mvc',
+        'dbname' => 'lojav1',
         'dbhost' => 'localhost',
         'dbuser' => 'root',
         'dbpass' => '',
@@ -12,9 +12,9 @@ if (ENVIRONMENT == 'development') {
     );
     
 }else{
-    define('BASE_URL', 'http://estrutura_mvc.com.br/');
+    define('BASE_URL', 'http://www.lojav1.com.br/');
     $config = array(
-        'dbname' => 'db_estrutura_mvc',
+        'dbname' => 'lojav1',
         'dbhost' => 'localhost',
         'dbuser' => 'root',
         'dbpass' => '',
