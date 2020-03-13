@@ -1,4 +1,4 @@
-# Estrutura básica do padrão MVC em PHP.
+# Loja Virtual versao 1.0 no padrão MVC em PHP.
 
 *Criado por Adalberto Rodrigues Teixeira
 
@@ -33,3 +33,4 @@ Observaçoes:
   <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;&lt;?php echo BASE_URL; ?&gt;assets/css/style.css&quot;&gt;</code></pre>
   - Não é necessário invocar o session_start(), ele ja esta sendo invocado no index.php;
   - O index.php sempre é invocado. Sempre!  
+"# lojavirtual1.0" 
